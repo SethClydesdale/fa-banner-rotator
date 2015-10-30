@@ -14,7 +14,9 @@ This small plugin takes the banner on your Forumotion forum and turns it into a 
 To install this plugin go to your Admin Panel and then Modules > JavaScript codes management, and create a new script with the following settings.
 
 **Title :** Banner Rotator
+
 **Placement :** In all the pages
+
 Paste the [raw source](https://raw.githubusercontent.com/SethClydesdale/fa-banner-rotator/master/banner_rotator.js) into the text area and click submit
 
 Read the next section for information on the configuration settings.
