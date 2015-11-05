@@ -14,6 +14,7 @@
     
     keep_initial : true,
     remember_position : true,
+    preload : true,
 
     // technical data below
     index : -1,
@@ -68,6 +69,14 @@
   if (!window.FA) FA = {};
   if (!FA.BannerRotator) {
     FA.BannerRotator = BannerRotator;
+    
+    if (FA.BannerRotator.preload) {
+      for (var i = 0, j = FA.BannerRotator.images.length, img; i < j; i++) {
+        img = document.createElement('IMG');
+        img.src = FA.BannerRotator.images[i];
+      }
+    }
+    
     $(FA.BannerRotator.init);
   }
 }());
