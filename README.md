@@ -40,3 +40,5 @@ This plugin contains various settings at the top of the script which you can mod
 **keep_initial :** When set to ``true`` this option will keep your default banner, and add it to the rotation as well. Set this option to ``false`` if you want to remove the default banner from the rotation.
 
 **remember_position :** When set to ``true`` this option will remember the last banner it was on, so when you change the page it'll start up where it left off. Set this option to ``false`` if you want the banner slide show to start over each time.
+
+**preload :** When this option is set to ``true`` all images in the script will be preloaded. This can help prevent jumping and partially loaded images. If you don't want the images to be preloaded simply turn this option to ``false``.
